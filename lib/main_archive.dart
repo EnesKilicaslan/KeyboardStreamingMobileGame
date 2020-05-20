@@ -115,3 +115,31 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
+
+
+
+// child: RichText(
+                //   maxLines: 1,
+                //   softWrap: false,
+                //   text: new TextSpan(
+                //     // Note: Styles for TextSpans must be explicitly defined.
+                //     // Child text spans will inherit styles from parent
+                //     style: new TextStyle(
+                //       fontSize: 24.0,
+                //       letterSpacing: 2,
+                //       color: Colors.black,
+                //     ),
+                //     children: <TextSpan>[
+                //       new TextSpan(text: 'Hello'),
+                //       new TextSpan(
+                //           text: lorem,
+                //           style: new TextStyle(
+                //             fontWeight: FontWeight.bold,
+                //             color: Colors.blue
+                //           )
+                //       ),
+                //     ],
+                //   ),
+                // ),
