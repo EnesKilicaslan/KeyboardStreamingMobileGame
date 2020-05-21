@@ -133,9 +133,15 @@ class _MyAppHomeState extends State<MyAppHome> {
       _shownWidget = <Widget>[
         Text("Sabiş Game Over oldun, sana puanım: $_score"),
         RaisedButton(
-            child: Text("Bir daha dene"),
-            onPressed: onReplay,
-          ),
+          child: Text("Bir daha dene balım"),
+          onPressed: onReplay,
+        ),
+        Icon(
+          Icons.favorite,
+          color: Colors.pink,
+          size: 24.0,
+          semanticLabel: 'Text to announce in accessibility modes',
+        ),
 
     ];
 
